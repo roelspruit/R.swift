@@ -14,6 +14,7 @@ class FirstViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    print(R.entitlements.comAppleDeveloperSiri)
     // Do any additional setup after loading the view, typically from a nib.
     titleLabel.font = R.font.averiaLibreBoldItalic(size: 36)
   }
